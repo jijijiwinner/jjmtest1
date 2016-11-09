@@ -1,0 +1,19 @@
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .btn-qq {
+    @height: 34px;
+    width: @height;
+    height: 34px;
+    background-image: url("../img/qq_32x32.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .btn-weibo:extend(.navbar .btn-qq) {
+    background-image: url("../img/weibo_32x32.png");
+  }
+}

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>动脑网站首页</title>
+  <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css" media="screen" title="no title">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title">
+  <link rel="stylesheet" href="./css/dongnao.css" media="screen" title="no title">
+</head>
+<body>
+  <nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <!-- logo及移动设备收起来时的图标菜单按钮 -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">首页</a></li>
+        <li><a href="#">VIP</a></li>
+        <li><a href="#">视频库</a></li>
+        <li><a href="#">活动</a></li>
+        <li><a href="#">社区</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">关于动脑</a></li>
+            <li><a href="#">人才招聘</a></li>
+            <li><a href="#">学员的风采</a></li>
+            <li class="divider">在线咨询</li>     
+          </ul>
+        </li>
+      </ul>
+        <form class="nav navbar-form navbar-right">
+          <button type="submit" class="btn btn-default btn-qq"></button>
+          <button type="submit" class="btn btn-default btn-weibo"></button>
+      </form>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">搜索</button>
+      </form>
+
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+<!-- 跑马灯 -->
+<div id="banner" class="carousel slide" data-ride="carousel">
+  <!-- 圆点 -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" ></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
+  </ol>
+
+  <!-- 卡片容器 -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/banner1.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/banner2.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/banner5.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+  <!-- 控制器 -->
+  <a class="left carousel-control" href="#banner" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">上一张</span>
+  </a>
+  <a class="right carousel-control" href="#banner" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">下一张</span>
+  </a>
+</div>
+<!-- VIP课程 -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>VIP 课程</h3>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-xs-6">
+        <a href="" class="thumbnail">
+          <img src="img/android.jpg" alt="" />
+        </a>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <a href="" class="thumbnail">
+          <img src="img/js.jpg" alt="" />
+        </a>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <a href="" class="thumbnail">
+          <img src="img/java.jpg" alt="" />
+        </a>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <a href="" class="thumbnail">
+          <img src="img/web.jpg" alt="" />
+        </a>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <a href="" class="thumbnail">
+          <img src="img/php.jpg" alt="" />
+        </a>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <a href="" class="thumbnail">
+          <img src="img/ui.jpg" alt="" />
+        </a>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <a href="" class="thumbnail">
+          <img src="img/c++.jpg" alt="" />
+        </a>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <a href="" class="thumbnail">
+          <img src="img/embed.jpg" alt="" />
+        </a>
+      </div>
+    </div>
+  </div>
+<div class="container">
+  <div class="row">
+    <div class=" col-md-12">
+      <h3>今日公开课</h3>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-xs-6">
+        <div class="thumbnail">
+          <img src="img/openClass1.png" alt="" />
+          <div class="caption">
+            <p>讲师：Danny老师</p>
+            <p>时间：7月31日</p>
+            <p>地点：腾讯课堂</p>
+            <p class="text-center"><a href="#" class="btn btn-primary" role="button">立即学习</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <div class="thumbnail">
+          <img src="img/openClass1.png" alt="" />
+          <div class="caption">
+            <p>讲师：Danny老师</p>
+            <p>时间：7月31日</p>
+            <p>地点：腾讯课堂</p>
+            <p class="text-center"><a href="#" class="btn btn-primary" role="button">立即学习</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <div class="thumbnail">
+          <img src="img/openClass1.png" alt="" />
+          <div class="caption">
+            <p>讲师：Danny老师</p>
+            <p>时间：7月31日</p>
+            <p>地点：腾讯课堂</p>
+            <p class="text-center"><a href="#" class="btn btn-primary" role="button">立即学习</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <div class="thumbnail">
+          <img src="img/openClass1.png" alt="" />
+          <div class="caption">
+            <p>讲师：Danny老师</p>
+            <p>时间：7月31日</p>
+            <p>地点：腾讯课堂</p>
+            <p class="text-center"><a href="#" class="btn btn-primary" role="button">立即学习</a></p>
+          </div>
+        </div>
+      </div>   
+  </div>
+</div>
+<div class="container">
+    <div class="row">
+      <div class=" col-md-12">
+        <h3>明星学员</h3>
+        <hr>
+      </div>
+     <div class="row">
+        <div class="col-md-6 student">
+          <div class="media">
+            <a class="media-left media-middle" href="#">
+               <img src="img/student1.png" alt="...">
+           </a>
+          <div class="media-body">
+            <h4 class="media-heading ">张洪涛</h4>
+            <p>所学课程<a href=""> ANDROID/安卓/自定义控件/NDK/架构/REACT/性能优化【动脑学院】 </a>动脑学院ANDROID开发课程毕业学员，就职于新浪，任职安卓高级工程师，薪资15K*16
+            </p>
+          </div>
+         </div>
+        </div>
+        <div class="col-md-6 student">
+          <div class="media">
+            <a class="media-left media-middle" href="#">
+               <img src="img/student2.png" alt="...">
+           </a>
+          <div class="media-body">
+            <h4 class="media-heading ">张洪涛</h4>
+            <p>所学课程<a href=""> ANDROID/安卓/自定义控件/NDK/架构/REACT/性能优化【动脑学院】 </a>动脑学院ANDROID开发课程毕业学员，就职于新浪，任职安卓高级工程师，薪资15K*16
+            </p>
+          </div>
+         </div>
+        </div>
+        <div class="col-md-6 student">
+          <div class="media">
+            <a class="media-left media-middle" href="#">
+               <img src="img/student3.png" alt="...">
+           </a>
+          <div class="media-body">
+            <h4 class="media-heading">张洪涛</h4>
+            <p>所学课程<a href=""> ANDROID/安卓/自定义控件/NDK/架构/REACT/性能优化【动脑学院】 </a>动脑学院ANDROID开发课程毕业学员，就职于新浪，任职安卓高级工程师，薪资15K*16
+            </p>
+          </div>
+         </div>
+        </div>
+        <div class="col-md-6 student">
+          <div class="media">
+            <a class="media-left media-middle" href="#">
+               <img src="img/student4.png" alt="...">
+           </a>
+          <div class="media-body">
+            <h4 class="media-heading">张洪涛</h4>
+            <p>所学课程<a href=""> ANDROID/安卓/自定义控件/NDK/架构/REACT/性能优化【动脑学院】 </a>动脑学院ANDROID开发课程毕业学员，就职于新浪，任职安卓高级工程师，薪资15K*16
+            </p>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3>师资团队</h3>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img src="img/t01.png" alt="...">
+        <div class="caption text-center">
+          <h3>专家团队顾问</h3>
+          <h5>课程质量保证</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img src="img/t02.png" alt="...">
+        <div class="caption text-center">
+          <h3>精英讲师团队</h3>
+          <h5>课程质量保证</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img src="img/t03.png" alt="...">
+        <div class="caption text-center">
+          <h3>教学服务团队</h3>
+          <h5>课程质量保证</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <a class="thumbnail">
+        <img src="img/t04.png" alt="...">
+        <div class="caption text-center">
+          <h3>就业指导团队</h3>
+          <h5>课程质量保证</h5>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3>合作伙伴</h3>
+      <hr>
+    </div>
+    <div class="col-md-8">
+      <div class="col-md-2 col-xs-4 friend friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div>
+      <div class="col-md-2 col-xs-4 friend friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4 friend friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div>
+      <div class="col-md-2 col-xs-4 friend friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4  friend friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4 friend friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4 friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4 friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4 friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4 friend" >
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4 friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4 friend friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div>
+      <div class="col-md-2 col-xs-4 friend friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4 friend friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div>
+      <div class="col-md-2 col-xs-4 friend friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4  friend friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+      <div class="col-md-2 col-xs-4 friend friend">
+        <img class="img-responsive img-thumbnail img-circle" src="img/qq.png" alt="">
+      </div> 
+    </div>
+    <div class="col-md-4">
+      <ul class="list-group">
+        <li class="list-group-item active lead">常见问题</li>
+        <li class="list-group-item">学习过程中有不理解的能不能及时答疑</li>
+        <li class="list-group-item">学习过程中有不理解的能不能及时答疑</li>
+        <li class="list-group-item">学习过程中有不理解的能不能及时答疑</li>
+        <li class="list-group-item">学习过程中有不理解的能不能及时答疑</li>
+        <li class="list-group-item">学习过程中有不理解的能不能及时答疑</li>
+        <li class="list-group-item">学习过程中有不理解的能不能及时答疑</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<footer class="container">
+  <div class="row text-center">
+  <hr>
+  <h4>湖南动脑信息科技有限公司</h4>
+  <p>@Copyright 2008-2016 www.dongnaoedu.com</p>
+</footer>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
